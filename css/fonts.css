@@ -1,0 +1,20 @@
+@font-face {
+  font-family: bebas;
+  src: url(../fonts/ofont.ru_Bebas-Neue.woff);
+}
+@font-face {
+  font-family: OS_bold;
+  src: url(../fonts/OpenSans-Bold.woff);
+}
+@font-face {
+  font-family: OS_extraBold;
+  src: url(../fonts/OpenSans-ExtraBold.woff);
+}
+@font-face {
+  font-family: OS_regular;
+  src: url(../fonts/OpenSans-Regular.woff);
+}
+@font-face {
+  font-family: OS_semiBold;
+  src: url(../fonts/OpenSans-SemiBold.woff);
+}
