@@ -63,11 +63,11 @@
 .header__middle-title {
   font-family: bebas;
   font-size: 60px;
-  letter-spacing: 0.1em;
+  letter-spacing: 4.2px;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 8px;
-  padding-top: 81px;
+  margin-bottom: 6px;
+  padding-top: 88px;
 }
 .header__middle-subtitle {
   font-family: OS_semiBold;
@@ -80,6 +80,7 @@
   letter-spacing: 0.34em;
   text-transform: uppercase;
   color: #fff;
+  margin-bottom: 1px;
 }
 
 @media screen and (max-width: 550px) {
@@ -122,7 +123,7 @@
 .navbar__menu {
   display: flex;
   justify-content: space-between;
-  padding-top: 5px;
+  padding-top: 4px;
 }
 .navbar__menu-a {
   font-family: OS_semiBold;
@@ -172,10 +173,10 @@
 .about__body {
 }
 .about__title {
-  margin-bottom: 13px;
+  margin-bottom: 12px;
 }
 .about__line {
-  margin: 0 auto 84px;
+  margin: 0 auto 55px;
 }
 .about__content {
   display: flex;
@@ -189,8 +190,9 @@
   font-family: OS_bold;
   font-size: 20px;
   letter-spacing: 0.01em;
+  line-height: 26px;
   color: #48555b;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
 }
 .about__left-top span {
   color: #16ace8;
@@ -252,14 +254,13 @@
 
 /* Services */
 .services {
-  padding-top: 58px;
+  padding-top: 59px;
   padding-bottom: 115px;
 }
 .services__body {
 }
 .services__top {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 76px;
 }
 .services__top_left {
@@ -277,9 +278,9 @@
   line-height: 173%;
   letter-spacing: 0.02em;
   color: #48555b;
-  max-width: 405px;
-  padding-top: 1px;
-  padding-left: 60px;
+  max-width: 406px;
+  padding-top: 2px;
+  margin-left: 153px;
 }
 .services__top-btn {
   width: 150px;
@@ -293,6 +294,8 @@
   text-align: center;
   color: #fff;
   text-transform: uppercase;
+  margin-left: 31px;
+  margin-top: 1px;
 }
 .services__bottom {
   display: flex;
@@ -309,7 +312,7 @@
   padding-right: 20px;
 }
 .services__card-icon {
-  margin-bottom: 22px;
+  margin-bottom: 23px;
 }
 .services__card-name {
   font-family: OS_bold;
@@ -318,7 +321,7 @@
   letter-spacing: 0.03em;
   color: #48555b;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 .services__card-text {
   font-family: OS_regular;
@@ -330,7 +333,10 @@
 
 @media screen and (max-width: 992px) {
   .services__top-text {
-    padding-left: 0;
+    margin-left: 20px;
+  }
+  .services__top-btn {
+    margin-left: 20px;
   }
   .services__bottom_card {
     height: auto;
@@ -349,7 +355,11 @@
   }
   .services__top-text {
     margin-bottom: 15px;
+    margin-left: 0px;
     text-align: center;
+  }
+  .services__top-btn {
+    margin-left: 0px;
   }
   .services__bottom {
     flex-direction: column;
@@ -370,9 +380,12 @@
 
 /* Touch */
 .touch {
-  padding-top: 122px;
+  padding-top: 121px;
   padding-bottom: 230px;
   background-image: url(../img/touch_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   text-align: center;
 }
 .touch__title {
@@ -382,8 +395,8 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: #48555b;
-  max-width: 300px;
-  margin: 0 auto 34px;
+  max-width: 350px;
+  margin: 0 auto 35px;
 }
 .touch__btn {
   width: 150px;
@@ -413,7 +426,8 @@
 
 /* Signup */
 .signup {
-  padding-top: 30px;
+  margin-top: -1px;
+  padding-top: 32px;
   padding-bottom: 30px;
   background: #171819;
 }
@@ -434,16 +448,17 @@
 .signup__form {
   display: flex;
   align-items: center;
+  margin-top: -1px;
 }
 .signup__form-email {
   border: 1px solid #979797;
-  width: 250px;
+  width: 252px;
   height: 40px;
   font-family: OS_regular;
   font-size: 14px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.5px;
   color: #48555b;
-  padding-left: 16px;
+  padding-left: 15px;
   margin-top: 1px;
 }
 .signup__form-btn {
@@ -483,40 +498,161 @@
 
 /* Footer  */
 .footer {
+  margin-top: -1px;
 }
 .footer__top {
+  background: #141a20;
+  padding: 44px 0 40px;
+  justify-content: center;
+  display: flex;
+  margin-left: -30px;
+}
+.footer__title {
+  font-family: OS_regular;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-transform: uppercase;
 }
 .footer__left {
+  max-width: 250px;
+  margin-right: 71px;
 }
 .footer__left-title {
+  margin-bottom: 20px;
 }
 .footer__left-logo {
+  width: 102px;
+  height: 23px;
+  margin-bottom: 13px;
 }
 .footer__left-txt {
+  font-family: OS_regular;
+  font-size: 11px;
+  line-height: 173%;
+  letter-spacing: 0.08em;
+  color: #fff;
 }
 .footer__middle {
+  max-width: 265px;
+  margin-right: 58px;
 }
 .footer__middle-title {
+  margin-bottom: 12px;
+}
+.footer__middle_inner {
+  display: flex;
+  justify-content: space-between;
 }
 .footer__column {
+  display: flex;
+  flex-direction: column;
+}
+.footer__column:nth-child(1) {
+  margin-right: 33px;
+}
+.footer__column:nth-child(2) {
+  margin-right: 37px;
 }
 .footer__column-link {
+  font-family: OS_semiBold;
+  font-size: 11px;
+  line-height: 227%;
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .footer__right {
+  max-width: 141px;
+  margin-right: 46px;
 }
 .footer__right-title {
+  margin-bottom: 17px;
+}
+.footer__right-contact {
+  font-family: OS_regular;
+  font-size: 11px;
+  line-height: 145%;
+  letter-spacing: 0.08em;
+  color: #fff;
 }
 .footer__right-adress {
+  margin-bottom: 14px;
 }
 .footer__right-number {
+  margin-bottom: 17px;
 }
 .footer__right-email {
 }
 .footer__social {
+  display: flex;
+  gap: 23px;
+  margin-left: 28px;
+  margin-top: 28px;
 }
 .footer__social-icon {
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
 }
 .footer__bottom {
+  background: #171819;
+  padding-top: 24px;
+  padding-bottom: 23px;
+  margin-top: -1px;
 }
 .footer__bottom-txt {
+  font-family: OS_regular;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #fff;
+  text-align: center;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__top {
+    margin-left: 0px;
+    flex-wrap: wrap;
+    padding: 44px 15px 40px;
+  }
+}
+@media screen and (max-width: 944px) {
+  .footer__social {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 831px) {
+  .footer__right {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 671px) {
+  .footer__middle {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .footer__top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__left {
+    margin-right: 0px;
+  }
+  .footer__middle {
+    margin-right: 0px;
+  }
+  .footer__social {
+    margin-left: 0px;
+  }
+  .footer__right {
+    margin-right: 0px;
+  }
+  .footer__bottom-txt {
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 20px;
+  }
 }
